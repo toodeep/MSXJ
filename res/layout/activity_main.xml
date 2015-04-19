@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:scrollbars="vertical" >
+
+      <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+ <EditText
+                android:id="@+id/addphone"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:drawablePadding="25dip"
+                android:hint="请输入手机号码"
+                android:paddingLeft="25dip"
+                android:textColor="#ff98bede"
+                android:textColorHint="#ffdddddd" />
+   
+
+     
+
+            <EditText
+                android:id="@+id/addusername"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_margin="8dip"
+                android:drawablePadding="25dip"
+                android:hint="请输入账号"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="25dip"
+                android:textColor="#ff98bede"
+                android:textColorHint="#ffdddddd" />
+
+            <EditText
+                android:id="@+id/addpassword"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:drawablePadding="25dip"
+                android:hint="请输入密码"
+                android:paddingLeft="25dip"
+                android:password="true"
+                android:textColor="#ff98bede"
+                android:textColorHint="#ffdddddd" />
+
+            <Button
+                android:id="@+id/add_user"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:enabled="true"
+                android:shadowColor="#7f000000"
+                android:shadowDx="0.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="注册"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_margin="8dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dip"
+                    android:text="用QQ账号登录"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dip"
+                    android:drawablePadding="8dip"
+                    android:text="登录"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dip"
+                    android:text="忘记密码"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dip"
+                android:gravity="center"
+                android:paddingBottom="8dip"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:paddingTop="8dip"
+                android:shadowColor="#ffffffff"
+                android:shadowDx="0.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="随便看看"
+                android:textColor="#ffb4b4b4"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
